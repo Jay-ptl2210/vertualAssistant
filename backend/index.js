@@ -11,7 +11,7 @@ import geminiResponse from './gemini.js';
 
 const app = express();   
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://vertualassistantbyjayptl.onrender.com",
     credentials:true, // Allow cookies to be sent with requests
 }))
 const port= process.env.PORT || 8000;
